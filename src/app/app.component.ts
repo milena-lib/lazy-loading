@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+// import { ActionSheetController } from '@ionic/angular';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'lazy-loading1';
+
+  // constructor (public actionSheetController: ActionSheetController) {
+
+  // }
 }
